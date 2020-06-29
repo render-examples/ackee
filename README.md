@@ -2,18 +2,18 @@
 
 This repo can be used to deploy [Ackee] on Render.
 
-- It uses the [official Ackee Docker image](https://hub.docker.com/r/electerious/ackee) with a little entrypoint script that glues together MongoDB connection string.
+- It uses the [official Ackee Docker image](https://hub.docker.com/r/electerious/ackee) with an entrypoint script that sets the MongoDB connection string for Ackee.
 - It uses [MongoDB on Render](https://render.com/docs/deploy-mongodb) for the database.
 
 ## Deployment
 
-### One Click Deploy
+### One Click
 
 Use the button below to deploy Ackee on Render.
 
 [![Deploy to Render](http://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
-### Manual Deployment
+### Manual
 
 See the guide at https://render.com/docs/deploy-ackee.
 
