@@ -23,8 +23,7 @@ services:
 - type: pserv
   name: ackee-mongodb
   env: docker
-  dockerfilePath: ./mongodb/Dockerfile
-  dockerContext: ./mongodb
+  repo: https://github.com/render-examples/mongodb.git
   disk:
     name: data
     mountPath: /data/db
