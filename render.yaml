@@ -1,6 +1,7 @@
 services:
 - type: web
   name: ackee
+  region: ohio
   env: docker
   envVars: # https://docs.ackee.electerious.com/#/docs/Options
   - key: ACKEE_USERNAME
@@ -22,6 +23,7 @@ services:
     value: "ackee"
 - type: pserv
   name: ackee-mongodb
+  region: ohio
   env: docker
   repo: https://github.com/render-examples/mongodb.git
   disk:
