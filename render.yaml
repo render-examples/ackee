@@ -2,6 +2,7 @@ services:
 - type: web
   name: ackee
   env: docker
+  autoDeploy: false
   envVars: # https://docs.ackee.electerious.com/#/docs/Options
   - key: ACKEE_USERNAME
     value: "render"
@@ -24,6 +25,7 @@ services:
   name: ackee-mongodb
   env: docker
   repo: https://github.com/render-examples/mongodb.git
+  autoDeploy: false
   disk:
     name: data
     mountPath: /data/db
